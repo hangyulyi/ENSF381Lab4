@@ -10,11 +10,8 @@ Throughout this assignement, students familiarized themselves with creating a re
 ## Team Members 
 
 |Name| 
-
 |----| 
-
 |Hangyul Yi| 
-
 |Mohammed Fauzaan| 
 
  
