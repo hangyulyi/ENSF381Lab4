@@ -1,4 +1,3 @@
-# ENSF381Lab4
 # Project Overview 
 
 This is a lab assignment for ENSF381, Full Stack Web development. 
