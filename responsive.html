@@ -32,11 +32,12 @@ Description : Responsive Layouts.
         .news-item { padding: 10px; }
 		
 		.row { 
-			display: inline-table;	
+			display: inline-table;
 		}
 
 		.large, .medium, .small {
 			/*I need some CSS codes.*/
+			box-sizing: border-box;
 		}
 		
 		.gap {
@@ -49,26 +50,47 @@ Description : Responsive Layouts.
 			}
 			.medium { 
 				width:70%;
+				float: right;
 			}
 			.small { 
 				width:30%;
+				float: left;
 			 }
 		}
 
         @media screen and (max-width: 768px) {
-            div{
-				flex-direction: column;
-				align-items: center;
+			.large {
+				width: 100%;
 			}
-			.gap{
-				margin: 5px 0px;
+			.medium {
+				width: 60%;
+				float: right;
+			}
+			.small {
+				width: 40%;
+				float: left;
 			}
 
+			.menu {
+				width: 100%;
 			}
+
+			.menu ul li{
+				display: block;
+			}
+
+			.main {
+				margin-left: 0;
+			}
+			
         }
 
         @media screen and (max-width: 480px) {
 			/*I need some CSS codes.*/
+			.large, .medium, .small {
+				width: 100%;
+			}
+			.news-item header h1 { font-size: 18px; }
         }
 
         
